@@ -5,7 +5,7 @@
 
 :root {
     --maintitle: 5.5rem;
-    --secondtitle: 2.9rem;
+    --secondtitle: 2.7rem;
     --thirdtitle: 2rem;
     --fourthtitle: 1.1rem;
     --bodytext: 1rem;
@@ -24,14 +24,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     margin: 0 auto;
-}
-
-body * {
-    font-family: 'Poppins', sans-serif;
 }
 
 .btn-pink {
@@ -39,7 +36,7 @@ body * {
     background-color: var(--pink);
     font-size: var(--fourthtitle);
     font-weight: 600;
-    padding: 15px 20px;
+    padding: 12px 28px;
     border: 0;
     border-radius: 50px;
     text-transform: uppercase;
@@ -50,7 +47,7 @@ body * {
     background-color: var(--skyblue);
     font-size: var(--fourthtitle);
     font-weight: 600;
-    padding: 15px 20px;
+    padding: 12px 28px;
     border: 0;
     border-radius: 50px;
     text-transform: uppercase;
@@ -61,18 +58,21 @@ body * {
     background-color: var(--white);
     font-size: var(--fourthtitle);
     font-weight: 600;
-    padding: 15px 20px;
+    padding: 12px 28px;
     border: 0;
     border-radius: 50px;
     text-transform: uppercase;
 }
 
 .main-title {
-    color: var(--gradient);
+    color: var(--pink);
+    /* background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
     font-size: var(--maintitle);
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
+    line-height: 80px;
 }
 
 .second-title {
@@ -80,7 +80,7 @@ body * {
     font-size: var(--secondtitle);
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 52px;
 }
 
 .third-title {
@@ -107,8 +107,8 @@ body * {
     line-height: normal;
 }
 
-i {
-    margin-left: 10px;
+.gradient-text {
+    color: var(--pink);
 }
 
 /* GLOBAL STYLE ENDS HERE */
@@ -118,7 +118,6 @@ i {
 
 header {
     margin: 0 auto;
-    box-shadow: 0 5px 30px -10px var(--lightgray);
 }
 
 .nav-container {
@@ -127,7 +126,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
+    padding: 25px 20PX;
+    box-shadow: 0 5px 30px -10px var(--lightgray); /* NEED TO FIX THIS SHADOW POSITION */
 }
 
 .logo-area {
@@ -165,11 +165,11 @@ header {
 }
 
 .nav-menu li {
-    color: var(--black);
     font-size: var(--bodytext);
 }
 
 .nav-menu li a {
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -186,9 +186,76 @@ header {
     cursor: pointer;
 }
 
+.btn-nav i {
+    margin-left: 10px;
+}
+
 /* NAVBAR SECTION ENDS HERE */
 
 
 
 /* HERO SECTION STARTS HERE */
 
+.hero-section-container {
+    background-image: url(../images/Group\ 14.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain; /* NEED TO FIX THE BACKGROUND IMAGE */
+}
+
+.hero-section {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero-list-items {
+    list-style: none;
+}
+
+.hero-list-items li {
+    margin-bottom: 15px;
+}
+
+.hero-list-items li i {
+    margin-right: 20px;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-right img {
+    width: 70%;
+    object-fit: cover;
+}
+
+/* HERO SECTION ENDS HERE */
+
+
+
+/* ONLINE GAMES SECTION STARTS HERE */
+
+.online-games {
+    
+}
