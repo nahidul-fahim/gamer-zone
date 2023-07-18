@@ -262,8 +262,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
     align-items: center;
+    gap: 20px;
     padding: 30px 0;
     margin-top: var(--margintop);
 }

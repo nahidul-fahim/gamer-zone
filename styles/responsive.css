@@ -2,7 +2,7 @@
 
     :root {
         --maintitle: 5rem;
-        --secondtitle: 2.3rem;
+        --secondtitle: 2.1rem;
         --thirdtitle: 2rem;
         --fourthtitle: 1rem;
         --bodytext: 1rem;
@@ -14,7 +14,7 @@
         --white: #fff;
         --lightgray: rgba(11, 2, 35, 0.10);
         --gradient: linear-gradient(to bottom, #F948B2, #8758F1);
-        --margintop: 120px;
+        --margintop: 70px;
     }
 
 
@@ -26,6 +26,7 @@
         justify-content: center;
         gap: 30px;
         padding: 30px 20PX;
+        box-shadow: none;
     }
     
     .menu-area {
@@ -81,5 +82,19 @@
 
     /* ONLINE GAMES RESPONSIVE */
 
+    .online-games {
+        max-width: 100vmin;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    
+    .game-card-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .game-card {
+        height: 400px;
+    }
     
 }
