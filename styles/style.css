@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+/* GLOBAL STYLE STARTS HERE */
+
+:root {
+    --maintitle: 5.5rem;
+    --secondtitle: 2.9rem;
+    --thirdtitle: 2rem;
+    --fourthtitle: 1.1rem;
+    --bodytext: 1rem;
+    --pink: #F948B2;
+    --purple: #8758F1;
+    --skyblue: #4EC5F7;
+    --black: #0B0223;
+    --gray: #534C64;
+    --white: #fff;
+    --lightgray: rgba(11, 2, 35, 0.10);
+    --gradient: linear-gradient(to bottom, #F948B2, #8758F1);
+    --margintop: 120px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-pink {
+    color: var(--white);
+    background-color: var(--pink);
+    font-size: var(--fourthtitle);
+    font-weight: 600;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.btn-skyblue {
+    color: var(--white);
+    background-color: var(--skyblue);
+    font-size: var(--fourthtitle);
+    font-weight: 600;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    color: var(--pink);
+    background-color: var(--white);
+    font-size: var(--fourthtitle);
+    font-weight: 600;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.main-title {
+    color: var(--gradient);
+    font-size: var(--maintitle);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.second-title {
+    color: var(--black);
+    font-size: var(--secondtitle);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.third-title {
+    color: var(--gray);
+    font-size: var(--thirdtitle);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.fourth-title {
+    color: var(--gray);
+    font-size: var(--fourthtitle);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.body-text {
+    color: var(--gray);
+    font-size: var(--bodytext);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+i {
+    margin-left: 10px;
+}
+
+/* GLOBAL STYLE ENDS HERE */
+
+
+/* NAVBAR SECTION STARTS HERE */
+
+header {
+    margin: 0 auto;
+    box-shadow: 0 5px 30px -10px var(--lightgray);
+}
+
+.nav-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.logo-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text {
+    color: var(--black);
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pink-text {
+    color: var(--pink);
+}
+
+.menu-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-menu li {
+    color: var(--black);
+    font-size: var(--bodytext);
+}
+
+.nav-menu li a {
+    text-decoration: none;
+}
+
+.btn-nav {
+    color: var(--black);
+    background-color: var(--lightgray);
+    font-size: var(--bodytext);
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* NAVBAR SECTION ENDS HERE */
+
+
+
+/* HERO SECTION STARTS HERE */
+
