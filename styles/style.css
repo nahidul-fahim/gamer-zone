@@ -17,7 +17,7 @@
     --white: #fff;
     --lightgray: rgba(11, 2, 35, 0.10);
     --gradient: linear-gradient(to bottom, #F948B2, #8758F1);
-    --margintop: 120px;
+    --margintop: 100px;
 }
 
 * {
@@ -257,5 +257,32 @@ header {
 /* ONLINE GAMES SECTION STARTS HERE */
 
 .online-games {
-    
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 0;
+    margin-top: var(--margintop);
+}
+
+.game-card-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.game-card {
+    width: 290px;
+    height: 380px;
+}
+
+.game-card img {
+    width: 99%;
+    height: auto;
+    object-fit: cover;
 }
