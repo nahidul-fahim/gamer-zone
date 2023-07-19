@@ -42,6 +42,7 @@ body {
     text-transform: uppercase;
 }
 
+
 .btn-skyblue {
     color: var(--white);
     background-color: var(--skyblue);
@@ -479,11 +480,81 @@ nav {
 
 
 
+/* CAREER SECTION STARTS HERE */
+
+.careers-container {
+    margin: 0 auto;
+    background-color: var(--pink);
+    padding: 100px 0;
+}
+
+.careers {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    padding: 0 20px;
+}
+
+.careers-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 45%;
+}
+
+.careers-left h2, .careers-left p {
+    color: white;
+}
+
+.career-steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+
+.career-steps li{
+    list-style: none;
+    font-size: var(--fourthtitle);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.career-steps-left {
+    text-align: left;
+}
+
+.career-steps-right {
+    text-align: right;
+}
+
+.careers-right {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.careers-right img {
+    width: 550px;
+    height: auto;
+}
+
+
+/* CAREER SECTION ENDS HERE */
+
+
+
 /* GAME-TYPES SECTIONS STARTS HERE */
 
 .game-types-container {
     max-width: 1240px;
-    margin: -160px auto 0 auto;
+    margin: 0 auto;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 120px 20px;
 }
