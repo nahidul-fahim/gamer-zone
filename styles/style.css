@@ -107,7 +107,7 @@ body {
     font-size: var(--bodytext);
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 32px;
 }
 
 .gradient-text {
@@ -123,6 +123,10 @@ header {
     margin: 0 auto;
 }
 
+nav {
+    box-shadow: 0 5px 30px -10px var(--lightgray);
+}
+
 .nav-container {
     max-width: 1240px;
     margin: 0 auto;
@@ -130,7 +134,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 25px 20PX;
-    box-shadow: 0 5px 30px -10px var(--lightgray); /* NEED TO FIX THIS SHADOW POSITION */
 }
 
 .logo-area {
@@ -255,6 +258,46 @@ header {
 
 /* HERO SECTION ENDS HERE */
 
+
+/* WE-ARE-GAMER SECTION STARTS HERE */
+
+.we-are-gamer-container {
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 110px 0;
+}
+
+.we-are-gamer {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+
+.we-gamer-left {
+    width: 50%;
+}
+
+.we-gamer-left img {
+    width: 700px;
+    height: auto;
+    object-fit: cover;
+}
+
+.we-gamer-right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    gap: 20px;
+}
+
+/* WE-ARE-GAMER SECTION ENDS HERE */
 
 
 /* ONLINE GAMES SECTION STARTS HERE */
