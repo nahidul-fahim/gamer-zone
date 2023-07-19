@@ -17,7 +17,7 @@
     --white: #fff;
     --lightgray: rgba(11, 2, 35, 0.10);
     --gradient: linear-gradient(to bottom, #F948B2, #8758F1);
-    --margintop: 100px;
+    --margintop: 110px;
 }
 
 * {
@@ -69,6 +69,9 @@ body {
     /* background: -webkit-linear-gradient(#F948B2, #8758F1);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; */
+    /* background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    background-clip: text;
+    color: transparent; */
     font-size: var(--maintitle);
     font-style: normal;
     font-weight: 800;
@@ -286,3 +289,58 @@ header {
     height: auto;
     object-fit: cover;
 }
+
+/* ONLINE GAMES SECTION ENDS HERE */
+
+
+
+/* PLAY-INSTANT SECTION STARTS HERE */
+
+.play-instant-container {
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-top: var(--margintop);
+}
+
+.play-instant {
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10%;
+}
+
+.play-instant-left {
+    width: 40%;
+    height: auto;
+    text-align: right;
+    padding-right: 80px;
+    margin-top: 110px;
+}
+
+.play-instant-left * {
+    margin-bottom: 20px;
+}
+
+.play-instant-right {
+    width: 50%;
+}
+
+.upper-image {
+    width: 80%;
+}
+
+.lower-image {
+    width: 49%;
+    position: relative;
+    top: -230px;
+    left: -130px;
+}
+
+/* PLAY-INSTANT SECTION ENDS HERE */
