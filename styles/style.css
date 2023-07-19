@@ -406,31 +406,57 @@ header {
 
 /* GAME-TYPES SECTIONS STARTS HERE */
 
-.game-types {
+.game-types-container {
     max-width: 1240px;
     margin: -160px auto 0 auto;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 120px 20px;
+    border: 1px solid red;
 }
 
-.game-types-upper {
+.game-types {
     margin: 0 auto;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-around;
+    max-width: 1240px;
+    display: grid;
+    grid-template: auto / repeat(10, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    grid-template-areas: 
+    "g1 g1 g2 g2 g3 g3 g4 g4 g5 g5"
+    ". g6 g6 g7 g7 g8 g8 g9 g9 .";
+    justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding: 30px 0;
+    align-content: center;
+    justify-items: center;
 }
 
-.game-types-lower {
-    margin: 0 auto;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
-    padding: 30px 0;
+#game1 {
+    grid-area: g1;
+}
+
+#game2 {
+    grid-area: g2;
+}
+#game3 {
+    grid-area: g3;
+}
+#game4 {
+    grid-area: g4;
+}
+#game5 {
+    grid-area: g5;
+}
+#game6 {
+    grid-area: g6;
+}
+#game7 {
+    grid-area: g7;
+}
+#game8 {
+    grid-area: g8;
+}
+#game9 {
+    grid-area: g9;
 }
 
 .single-game {
@@ -438,6 +464,8 @@ header {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    padding: 5px;
+    border: 1px solid rgba(0, 128, 0, 0);
 }
 
 /* GAME-TYPES SECTIONS ENDS HERE */

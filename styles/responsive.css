@@ -181,5 +181,38 @@
         order: 1;
     }
 
-    /* */
+    /* GAME-TYPES SECTION RESPONSIVE */
+
+    .game-types {
+        max-width: 100vmin;
+        margin: -100px auto 0 auto;
+        padding: 120px 20px;
+    }
+    
+    .game-types-upper {
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 0;
+    }
+    
+    .game-types-lower {
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        padding: 30px 0;
+    }
+    
+    .single-game {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
 }
