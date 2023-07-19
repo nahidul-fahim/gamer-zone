@@ -1,3 +1,6 @@
+
+/* ========= RESPONSIVE FOR MOBILE DEVICES ============*/
+
 @media screen and (max-width: 576px) {
 
     :root {
@@ -6,7 +9,7 @@
         --thirdtitle: 2rem;
         --fourthtitle: 1rem;
         --bodytext: 1rem;
-        --margintop: 70px;
+        --margintop: 80px;
     }
 
 
@@ -57,7 +60,7 @@
     }
     
     .hero-btn {
-        gap: 15px;
+        gap: 10px;
     }
     
     .hero-right {
@@ -73,16 +76,16 @@
 
 
     /* WE-ARE-GAMER RESPONSIVE */
-
-    .we-are-gamer-container {
-        padding: 90px 0;
-    }
     
+    .we-are-gamer-container {
+        padding: 80px 0;
+    }
+
     .we-are-gamer {
         max-width: 100vmin;
         flex-direction: column;
         justify-content: center;
-        gap: 50px;
+        gap: 40px;
     }
     
     .we-gamer-left {
@@ -105,7 +108,6 @@
 
     .online-games {
         max-width: 100vmin;
-        padding: 30px 20px;
         text-align: center;
     }
     
@@ -121,9 +123,9 @@
     /* PLAY INSTANT SECTION RESPONSIVE */
 
     .play-instant-container {
-        padding: 30px 0;
         max-width: 100vmin;
         align-items: center;
+        padding: 0;
     }
     
     .play-instant {
@@ -152,22 +154,21 @@
     
     .upper-image {
         position: relative;
-        left: 40px;
+        left: 30px;
     }
     
     .lower-image {
         width: 42%;
         top: -150px;
-        left: -100px;
+        left: -110px;
     }
 
     /* PLAY-GAMES-ONLINE SECTION RESPONSIVE */
 
     .play-games-online-container {
-        padding: 30px 0;
         max-width: 100vmin;
         align-items: center;
-        margin-top: -100px;
+        margin-top: -60px;
     }
     
     .play-games-online {
@@ -191,14 +192,14 @@
     .playgames-upper-image{
         width: 75%;
         position: relative;
-        left: -40px;
+        left: -30px;
     }
     
     .playgames-lower-image {
         width: 42%;
         position: relative;
         top: -140px;
-        right: -100px;
+        right: -110px;
     }
 
     .play-games-online-right {
@@ -210,13 +211,15 @@
         order: 1;
     }
 
+
     /* GAME-TYPES SECTION RESPONSIVE */
 
     .game-types-container {
         max-width: 100vmin;
-        margin: -100px auto 0 auto;
+        margin: 0 auto;
         background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
         padding: 100px 20px;
+        margin-top: -40px;
     }
     
     .game-types {
@@ -347,6 +350,10 @@
     }
 }
 
+
+/* ========= RESPONSIVE FOR TABLET DEVICES ========== */
+
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
     :root {
         --maintitle: 5rem;
@@ -405,7 +412,7 @@
     }
     
     .hero-btn {
-        gap: 15px;
+        gap: 10px;
     }
     
     .hero-right {
@@ -460,7 +467,7 @@
     .game-card-container {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 30px;
     }
     
     .game-card {
@@ -470,7 +477,7 @@
     /* PLAY INSTANT SECTION RESPONSIVE */
 
     .play-instant-container {
-        padding: 30px 0;
+        padding: 0 0;
         max-width: 100vmin;
         align-items: center;
     }
@@ -506,8 +513,8 @@
     
     .lower-image {
         width: 42%;
-        top: -250px;
-        left: -200px;
+        top: -150px;
+        left: -130px;
     }
 
     /* PLAY-GAMES-ONLINE SECTION RESPONSIVE */
@@ -516,7 +523,7 @@
         padding: 30px 0;
         max-width: 100vmin;
         align-items: center;
-        margin-top: -130px;
+        margin-top: -70px;
     }
     
     .play-games-online {
@@ -546,8 +553,8 @@
     .playgames-lower-image {
         width: 42%;
         position: relative;
-        top: -210px;
-        right: -200px;
+        top: -150px;
+        right: -130px;
     }
 
     .play-games-online-right {
@@ -563,8 +570,7 @@
 
     .game-types-container {
         max-width: 100vmin;
-        margin: -150px auto 0 auto;
-        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+        margin: -70px auto 0 auto;
         padding: 100px 20px;
     }
     
