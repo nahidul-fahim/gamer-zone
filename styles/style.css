@@ -467,6 +467,87 @@ header {
     border: 1px solid rgba(0, 128, 0, 0);
 }
 
-
-
 /* GAME-TYPES SECTIONS ENDS HERE */
+
+
+
+/* FOOTER SECTION STARTS HERE */
+
+footer {
+    margin: 0 auto;
+    padding: 100px 20px;
+    background-color: var(--black);
+}
+
+.footer-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 40px;
+}
+
+.footer-logo-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo-text {
+    color: var(--white);
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.footer-nav-menu li {
+    font-size: var(--fourthtitle);
+}
+
+.footer-nav-menu li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: var(--thirdtitle);
+}
+
+.footer-rules-menu {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.footer-rules-menu li {
+    font-size: var(--bodytext);
+}
+
+.footer-rules-menu li a {
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.footer-copyright *{
+    display: inline;
+}
+
+.small {
+    color: var(--gray);
+    font-size: 14px;
+}
