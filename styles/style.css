@@ -539,7 +539,16 @@ nav {
     align-items: center;
     gap: 15px;
     padding: 5px;
-    border: 1px solid rgba(0, 128, 0, 0);
+    border: 3px solid rgba(0, 128, 0, 0);
+}
+
+.single-game:hover {
+    border: 3px solid var(--pink);
+    border-radius: 50px;
+}
+
+.single-game:hover h3 {
+    color: var(--pink);
 }
 
 /* GAME-TYPES SECTIONS ENDS HERE */
