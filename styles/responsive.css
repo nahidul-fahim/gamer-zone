@@ -72,6 +72,35 @@
     }
 
 
+    /* WE-ARE-GAMER RESPONSIVE */
+
+    .we-are-gamer-container {
+        padding: 90px 0;
+    }
+    
+    .we-are-gamer {
+        max-width: 100vmin;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .we-gamer-left {
+        width: 100vmin;
+    }
+    
+    .we-gamer-left img {
+        width: 99%;
+    }
+    
+    .we-gamer-right {
+        width: 100vmin;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
     /* ONLINE GAMES RESPONSIVE */
 
     .online-games {
