@@ -513,8 +513,8 @@
     
     .lower-image {
         width: 42%;
-        top: -150px;
-        left: -130px;
+        top: -250px;
+        left: -160px;
     }
 
     /* PLAY-GAMES-ONLINE SECTION RESPONSIVE */
@@ -523,7 +523,7 @@
         padding: 30px 0;
         max-width: 100vmin;
         align-items: center;
-        margin-top: -70px;
+        margin-top: -110px;
     }
     
     .play-games-online {
@@ -553,8 +553,8 @@
     .playgames-lower-image {
         width: 42%;
         position: relative;
-        top: -150px;
-        right: -130px;
+        top: -250px;
+        right: -160px;
     }
 
     .play-games-online-right {
@@ -570,21 +570,19 @@
 
     .game-types-container {
         max-width: 100vmin;
-        margin: -70px auto 0 auto;
+        margin: -110px auto 0 auto;
         padding: 100px 20px;
     }
     
     .game-types {
         max-width: 100vmin;
-        grid-template: auto / repeat(4, 1fr);
+        grid-template: auto / repeat(3, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 40px;
         grid-template-areas: 
-        "g1 g1 g2 g2"
-        "g3 g3 g4 g4"
-        "g5 g5 g6 g6"
-        "g7 g7 g8 g8"
-        ". g9 g9 .";
+        "g1 g2 g3"
+        "g4 g5 g6"
+        "g7 g8 g9";
         justify-content: center;
         align-items: center;
         align-content: center;
