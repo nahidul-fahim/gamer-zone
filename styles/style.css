@@ -333,10 +333,12 @@ nav {
     width: 99%;
     height: auto;
     object-fit: cover;
+    border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .game-card:hover .hover-content {
     opacity: 1;
+    border: 1px solid var(--pink);
 }
 
 .hover-content {
@@ -354,7 +356,7 @@ nav {
     align-items: center;
     gap: 20px;
     opacity: 0;
-    transition: opacity .4s ease-in-out;
+    transition: all .4s ease-in;
 }
 
 .hover-content p {
