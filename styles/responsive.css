@@ -245,7 +245,7 @@
         align-items: center;
         gap: 5px;
         padding: 5px;
-        border: 1px solid rgba(0, 128, 0, 0);
+        border: 3px solid rgba(0, 128, 0, 0);
     }
 
     /* FOOTER RESPONSIVE */
@@ -595,7 +595,7 @@
         align-items: center;
         gap: 5px;
         padding: 5px;
-        border: 1px solid rgba(0, 128, 0, 0);
+        border: 3px solid rgba(0, 128, 0, 0);
     }
 
     /* FOOTER RESPONSIVE */
